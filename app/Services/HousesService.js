@@ -33,7 +33,7 @@ class HousesService{
     house.price += 100
     
     try {
-      const res = await api.put('houses/' +id, house)
+      const res = await api.put('houses/' + id, house)
       ProxyState.houses = ProxyState.houses
     } catch (error) {
       console.log(error);

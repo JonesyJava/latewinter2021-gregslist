@@ -1,14 +1,12 @@
-import {generateId} from "../Utils/GenerateId.js"
-
 export default class Jobs{
-constructor({company, jobTitle, hours, rate, description, imgUrl}){
+constructor({company, jobTitle, hours, rate, description, imgUrl, _id, id}){
   this.company = company
   this.jobTitle = jobTitle
   this.hours = hours
   this.rate = rate
   this.description = description
   this.imgUrl = imgUrl
-  this.id = generateId()
+  this.id = _id || id
 }
 
 get Template(){
