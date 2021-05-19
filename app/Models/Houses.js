@@ -17,7 +17,7 @@ get Template(){
   <div class="card-body">
       <h5 class="card-title"> Bedrooms: ${this.bedrooms} Bathrooms: ${this.bathrooms}</h5>
       <p class="card-text">${this.description}</p>
-      <p>Levels: ${this.levels}</p>
+      <p>Levels: ${this.levels}</p>/
       <p>Year: ${this.year}</p>
       <p>Price: $${this.price}</p>
       <button class="btn btn-success" onclick="app.housesController.bid('${this.id}')">Bid</button>
