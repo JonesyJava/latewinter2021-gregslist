@@ -7,7 +7,7 @@ class CarsService{
  
   constructor(){
     console.log("cars service");
-    this.getCars()
+    this.getCars() 
   }
 
   async getCars(){
